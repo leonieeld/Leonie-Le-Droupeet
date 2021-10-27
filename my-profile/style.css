@@ -1,0 +1,61 @@
+/* Colors and fonts */
+
+body {
+	background: #fuchsia;
+	color: rgb(50, 50, 50);
+	font-family: helvetica;
+	font-size: 16px;
+}
+h1, h2 {
+	font-family: 'Playfair Display', serif;
+}
+h1, h2 {
+	color: #986D8E;
+}
+h1{
+	font-size: 32px;
+}
+h2{
+	font-size: 24px;
+	font-weight: lighter;
+}
+a {
+	text-decoration: none;
+	color: #852747;
+}
+a:hover {
+	color: #FF7777;
+}
+
+/* Custom design with class (99% of your design) */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-FFF3E4 {
+	background-color: #FFF3E4;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 1);
+	border-radius: 20px;
+	margin: 10px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 70%;
+}
+.btn-pink {
+	background-color: #986D8E;
+	color: FFF3E4;
+	padding: 15px 20px;
+	border-radius: 20px;
+}
+.btn-pink:hover {
+	background-color: hotpink;
+	color: FFF3E4;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#follow p {
+	margin-bottom: 40px;
+}
+
